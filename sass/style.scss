@@ -24,6 +24,17 @@ body {
 }
 //Nav
 .nav {
+	.nav-mobile {
+		.hamburger {
+			position: absolute;
+			color: $white;
+		}
+		.hamburger-inner {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
 	.nav-dekstop {
 		display: none;
 	}
