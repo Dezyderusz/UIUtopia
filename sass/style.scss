@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@import '//sass/colors';
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+//Nav
+.nav {
+	.nav-dekstop {
+		display: none;
+	}
+}
+//Header
+
+/****Main****/
+
+//Footer
+
+//Media
+@import '//sass/small';
+@import '//sass/medium';
+@import '//sass/large';
